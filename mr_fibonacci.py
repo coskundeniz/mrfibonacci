@@ -8,7 +8,7 @@ import logging
 try:
     import tweepy
 except ImportError:
-    print("Please run 'pip install -r requirements.txt'")
+    print("Please run 'pipenv install' or 'pip install -r requirements.txt'")
     sys.exit(1)
 
 logging.basicConfig(filename='log.txt',

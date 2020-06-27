@@ -13,6 +13,10 @@ Requirements
 
 * Twitter account with an app registered.
 * Access token, access token secret, consumer key, and consumer secret of that app should be set as environment variable.
+
+Run one of the followings
+
+* pipenv install
 * pip install -r requirements.txt
 
 Usage
